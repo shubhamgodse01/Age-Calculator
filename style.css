@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c1cccf;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+
+}
+.container {
+    width: 520px;
+    height: auto;
+    margin: 100px auto;
+    background-color: #eee;
+    border-radius: 25px;
+    border: 2px solid rgb(10, 0, 117);
+    padding: 10px;
+    border-radius: 20px
+}
+.base {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    display: block;
+    float: none;
+}
+.block {
+    width: 135px;
+    padding: 5px 20px;
+    margin-left: 20px;
+    float: left;
+}
+.base h4 {
+    font-size: 26px;  
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 0px;
+    box-shadow: 0px 2px #bababa;
+    background: white;
+    font-size: 34px;
+    color: navy;
+}
+.base h5 {
+    
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background: white;
+    border-radius: 5px;
+    font-size: 15px;
+    color: rgb(16, 16, 165);
+}
+.title {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    font-weight: bold;
+    font-weight: normal;
+    line-height: 0.5;
+    letter-spacing: 0.5px;
+    word-spacing: 2.7px;
+    color: #1073d0;
+    border-radius: 5px;
+}
+input[type="text"] {
+    width: 140px;
+    margin: auto;
+    outline: none;
+    min-height: 50px;
+    border: 2px solid #1073d0;
+    padding: 12px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    color: #1073d0;
+    font-size: 17px;
+}
+input[type="text"]:focus {
+    background-color: #ffffff;
+    border: 2px solid orange;
+    outline: none;
+}
+input[type="button"] {
+    width: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 35%;
+    margin-top: 40px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: #0761b6;
+    color: #ffffff;
+    padding: 14px 16px;
+    text-align: center;
+    font-size: 16px;
+}
+input[type="button"]:hover {
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 15px #03e9f4;
+}
+#age {
+    display: block;
+    margin: 10px;
+    margin-top: 35px;
+    padding: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bolder;
+    box-shadow: 0px 2px #bababa;
+    background: white;
+    line-height: 1.5;
+    word-spacing: 2.7px;
+    color: navy;
+}
